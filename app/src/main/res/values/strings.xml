@@ -56,6 +56,7 @@
     <!--Misc-->
     <string name="select_country">Select Country</string>
     <string name="countries_json">countries.json</string>
+    <string name="logged_out_successfully">Logged Out SuccessFully</string>
 
 
 </resources>

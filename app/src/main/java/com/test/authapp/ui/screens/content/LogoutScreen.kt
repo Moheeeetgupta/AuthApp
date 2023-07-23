@@ -1,5 +1,6 @@
 package com.test.authapp.ui.screens.content
 
+import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import com.test.authapp.R
@@ -21,6 +23,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun LogOutScreen(navController: NavController, preferenceCache: PreferenceCache) {
     val coroutineScope = rememberCoroutineScope()
+    val context = LocalContext.current
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -40,6 +43,7 @@ fun LogOutScreen(navController: NavController, preferenceCache: PreferenceCache)
                 coroutineScope.launch {
                     preferenceCache.putBoolean(IS_AUTHENTICATED, false)
                 }
+                Toast.makeText(context, context.getString(R.string.logged_out_successfully), Toast.LENGTH_SHORT).show()
             }
         )
     }
