@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">AuthApp</string>
+
+    <string name="welcome_to_auth_app">Welcome To Auth App</string>
+
+    <string name="empty_string" />
+
+    <string name="navigate_back">Navigate to the previous screen</string>
+
+    <!--Login-->
+    <string name="login_heading_text">Login</string>
+    <string name="username">Enter User Name…</string>
+    <string name="enter_email_id">Enter Email Id…</string>
+    <string name="login_password_label">Enter Password…</string>
+    <string name="login_button_text">Login</string>
+    <string name="icon_password_visible">Password Visible</string>
+    <string name="icon_password_hidden">Password Hidden</string>
+
+    <!--Login Error Messages-->
+    <string name="login_error_msg_empty_email">Please enter your email</string>
+    <string name="login_error_msg_email_not_available">Please enter registered email</string>
+    <string name="login_error_msg_empty_password">Please enter your password</string>
+    <string name="login_error_msg_password_not_correct">Please enter correct password</string>
+
+
+    <!--Login Page - Register Section-->
+    <string name="do_not_have_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+
+    <!--Registration-->
+    <string name="registration_heading_text">Register On Auth App</string>
+    <string name="registration_email_label">Email ID</string>
+    <string name="registration_password_label">Password</string>
+    <string name="registration_confirm_password_label">Confirm Password</string>
+    <string name="registration_button_text">Register</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <!--Registration Error Messages-->
+    <string name="registration_error_msg_empty_email">Please enter your email id</string>
+    <string name="registration_error_msg_invalid_email">Please enter a valid email id</string>
+    <string name="registration_error_msg_empty_user_name">Please enter your User Name</string>
+    <string name="registration_error_msg_empty_country_name">Please enter your Country Name</string>
+    <string name="registration_error_msg_empty_password">Please enter your password</string>
+    <string name="registration_error_msg_empty_confirm_password">Please confirm your password</string>
+    <string name="registration_error_msg_password_mismatch">Please enter the same password here as above</string>
+    <string name="registration_error_msg_password_less_size">Password size must be 8 or greater</string>
+    <string name="registration_error_msg_password_special_char_missing">Password must contain at least one special character [!@#$%&amp;()]</string>
+    <string name="registration_error_msg_password_lower_case_letter_missing">Password must contain at least one lower case letter </string>
+    <string name="registration_error_msg_password_upper_case_letter_missing">Password must contain at least one upper case letter </string>
+    <string name="registration_error_msg_password_digit_missing">Password must contain at least one digit </string>
+
+
+    <!--LogOut Screen-->
+    <string name="log_out">Log Out</string>
+
+    <!--Misc-->
+    <string name="select_country">Select Country</string>
+    <string name="countries_json">countries.json</string>
+
+
+</resources>
